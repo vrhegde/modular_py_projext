@@ -1,6 +1,6 @@
 import item
 
-class Phone(Item):
+class Phone(item.Item):
 
   def __init__(self, name, price: float, quantity = 3, broken_phones = 0):
     #call the super function to import all of the attributes from parent class
