@@ -1,4 +1,4 @@
-import Item
+import item
 
 class Phone(Item):
 
