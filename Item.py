@@ -23,7 +23,7 @@ class Item:
     Item.list_all.append(self)
     print('I am created')
   
-  @property.  #property decorator = read only attribute
+  @property  # property decorator = read only attribute
   def name(self):
      return self.__name
 
